@@ -11,11 +11,12 @@ from bs4 import BeautifulSoup
 import openai
 import streamlit as st
 from streamlit_tags import st_tags  
+from io import BytesIO
 
 
 # converts pdf to text
 @st.experimental_memo()
-def pdf_2_text(file):
+def pdf_2_text(file: BytesIO) -> str:
     with open(file, "rb") as fp:
         text = pdfminer.high_level.extract_text(
                     fp, 
