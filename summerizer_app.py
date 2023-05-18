@@ -2,7 +2,7 @@
 import streamlit as st
 import pdfminer
 import requests
-import pdfminer.high_level
+from pdfminer import high_level
 from pdfminer.layout import LAParams
 import pandas as pd
 import arxiv
