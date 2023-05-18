@@ -14,6 +14,7 @@ from streamlit_tags import st_tags
 
 
 # converts pdf to text
+@st.experimental_memo()
 def pdf_2_text(file):
     with open(file, "rb") as fp:
         text = pdfminer.high_level.extract_text(
@@ -65,7 +66,7 @@ def search_arxiv(query):
 
     print("Number of papers extracted : ",df.shape[0])
     return df
-
+@st.experimental_memo()
 def arxiv_2_file(url, filename):
     url = url
     filename = filename+'.pdf'
