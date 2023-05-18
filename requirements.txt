@@ -1,8 +1,10 @@
-streamlit
-pdfminer
-requests
-pandas
 arxiv==1.4.7
-bs4 
-openai
-streamlit_tags
+beautifulsoup4==4.10.0
+openai==0.27.6
+pandas==1.4.3
+pandas==1.2.4
+pdfminer==20191125
+pdfminer.six==20221105
+Requests==2.30.0
+streamlit==1.21.0
+streamlit_tags==1.2.8
