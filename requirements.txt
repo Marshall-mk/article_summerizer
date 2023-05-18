@@ -2,7 +2,7 @@ streamlit
 pdfminer
 requests
 pandas
-arxiv==6.0.10
+arxiv==1.0.0
 bs4 
 openai
 streamlit_tags
