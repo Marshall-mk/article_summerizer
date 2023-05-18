@@ -1,0 +1,11 @@
+streamlit
+pdfminer
+requests
+pdfminer.high_level
+pdfminer.layout 
+pandas
+arxiv
+textwrap
+bs4 
+openai
+streamlit_tags
